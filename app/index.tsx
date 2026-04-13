@@ -8,9 +8,9 @@ import {
   Alert,
 } from "react-native";
 
-type Props = {};
 
-export default function App({}: Props) {
+
+export default function App() {
   const [randomNumber] = useState<number>(
     Math.floor(Math.random() * 10) + 1
   );
